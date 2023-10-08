@@ -1,0 +1,37 @@
+
+h1{
+    text-align: left;
+    color:black;
+    font-family: 'AR One Sans', sans-serif; 
+    letter-spacing: 0.2em;
+
+}
+
+
+    img {
+        width: 210px;
+        height: 210px;
+        object-fit: cover;
+      }
+
+li{ 
+    display:flex;
+    display:inline-block;
+    border-radius: 25px;
+    width: 210px;
+    padding:20px;
+    margin: 0 20px; 
+    height: 210px;
+    border-style: solid;
+    border-width: 2px;
+    flex-direction: row;
+    margin-bottom:30px; 
+    position: relative;
+}
+button{
+
+        margin: 10px;
+        font-size: 20px;
+        position :relative;
+        border: 0;
+}
