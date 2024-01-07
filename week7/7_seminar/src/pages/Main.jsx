@@ -1,32 +1,5 @@
 
-// import { Link } from 'react-router-dom';
-// import { useEffect, useState } from 'react';
 
-// const Main = () => {
-//   const [notes, setNotes] = useState([]);
-
-//   useEffect(() => {
-//     const savedNotes = JSON.parse(localStorage.getItem('notes')) || [];
-//     setNotes(savedNotes);
-//   }, []);
-
-//   return (
-//     <div>
-//       <h1>Notes</h1>
-//       <Link to="/post">Create Note</Link>
-      
-//       <ul>
-//         {notes.map((note) => (
-//           <li key={note.id}>
-//             <Link to={`/detail/${note.id}`}>{note.title}</Link>
-//           </li>
-//         ))}
-//       </ul>
-//     </div>
-//   );
-// };
-
-// export default Main;
 import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
